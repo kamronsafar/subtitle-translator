@@ -14,24 +14,29 @@ python translator.py input.srt output.srt <language_code>
     <language_code> — target language code (e.g. ru, es, uz, etc.)
 
 🌍 Language Code Examples
-Language Name	Code
-🇷🇺 Russian	ru
-🇬🇧 English	en
-🇪🇸 Spanish	es
-🇫🇷 French	fr
-🇯🇵 Japanese	ja
-🇩🇪 German	de
-🇨🇳 Chinese	zh
-🇹🇷 Turkish	tr
-🇮🇹 Italian	it
+| Language       | Code |
+|----------------|------|
+| 🇷🇺 Russian     | ru   |
+| 🇬🇧 English     | en   |
+| 🇪🇸 Spanish     | es   |
+| 🇫🇷 French      | fr   |
+| 🇯🇵 Japanese    | ja   |
+| 🇩🇪 German      | de   |
+| 🇨🇳 Chinese     | zh   |
+| 🇹🇷 Turkish     | tr   |
+| 🇮🇹 Italian     | it   |
+| 🇺🇿 Uzbek       | uz   |
 
     ✅ You can use any language code supported by Google Translate.
 
 📦 Requirements
 
+```bash
 pip install aiohttp srt deep-translator
+```
 
 💡 Examples
+
 ```bash
 python translator.py movie.srt movie_ru.srt ru
 python translator.py talk.srt talk_es.srt es
