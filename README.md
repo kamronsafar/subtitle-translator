@@ -25,7 +25,7 @@ python translator.py input.srt output.srt <language_code>
 | 🇨🇳 Chinese     | zh   |
 | 🇹🇷 Turkish     | tr   |
 | 🇮🇹 Italian     | it   |
-| 🇺🇿 Uzbek       | uz   |
+
 
     ✅ You can use any language code supported by Google Translate.
 
